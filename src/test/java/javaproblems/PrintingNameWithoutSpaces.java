@@ -8,7 +8,7 @@ public class PrintingNameWithoutSpaces {
 		// TODO Auto-generated method stub
 		
 		String name = " how are you ";
-		System.out.println(name);
+//		System.out.println(name);
 		
 		for(int i=0;i<name.length();i++) {
 			if(name.charAt(i)==' ') {

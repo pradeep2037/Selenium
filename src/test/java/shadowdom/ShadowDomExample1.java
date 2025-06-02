@@ -1,4 +1,5 @@
 package shadowdom;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -10,10 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-
-
 public class ShadowDomExample1 {
-	
 
 	WebDriver driver;
 
@@ -27,12 +25,10 @@ public class ShadowDomExample1 {
 
 	@Test
 	public void shadowDomTest() {
-		
-		driver.findElement(By.xpath("//div[@id=\"shadow_host\"]")).getShadowRoot().findElement(By.cssSelector("input[type='text']")).sendKeys("selenium");
+
+		driver.findElement(By.xpath("//div[@id=\"shadow_host\"]")).getShadowRoot()
+				.findElement(By.cssSelector("input[type='text']")).sendKeys("selenium");
 	}
-	
-	
-	
 
 	@AfterMethod
 	public void afterMethod() throws InterruptedException {
