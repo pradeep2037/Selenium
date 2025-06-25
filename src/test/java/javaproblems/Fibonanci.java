@@ -16,21 +16,19 @@ public class Fibonanci {
 		
 		System.out.println(a);
 		
-//		for(int i=0;i<num;i++) {
-//			System.out.println(b);
-//			int temp = a+b;
-//			a=b;
-//			b=temp;
-//		}
-		
-		for(int i=0; i<num;i++) {
+		for(int i=0;i<num;i++) {
 			System.out.println(b);
-
-			int temp = b;
-			b =a+temp;
-			a = temp;
-			
-
+			int temp = a+b;
+			a=b;
+			b=temp;
 		}
+		
+//		for(int i=0; i<num;i++) {
+//			System.out.println(b);
+//
+//			int temp = b;
+//			b =a+temp;
+//			a = temp;
+//		}
 	}
 }
