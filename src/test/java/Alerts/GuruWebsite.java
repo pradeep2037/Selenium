@@ -21,8 +21,8 @@ public class GuruWebsite {
 
 	@Test
 	public void amazonDropDown() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@type=\"text\"]")).sendKeys("mngr589366");
-		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("yjahunA");
+		driver.findElement(By.xpath("//input[@type=\"text\"]")).sendKeys("mngr627225");
+		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("rErEdUm");
 		driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
 		
 		driver.findElement(By.xpath("//a[text()='Delete Customer']")).click();
