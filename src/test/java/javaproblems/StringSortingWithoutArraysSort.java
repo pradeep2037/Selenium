@@ -3,7 +3,7 @@ package javaproblems;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class StringSortingWithputArraysSort {
+public class StringSortingWithoutArraysSort {
 
 	public static void main(String[] args) {
 		

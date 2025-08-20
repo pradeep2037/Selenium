@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 public class AdactInHotelApp {
 	
 	ChromeDriver driver = new ChromeDriver();
-
 	
 	@BeforeMethod
 	public void initialSetUp() {
@@ -36,6 +35,7 @@ public class AdactInHotelApp {
 //			System.out.println(driver.getTitle());
 //			driver.navigate().back();
 //			System.out.println("---------------------------------------------------------");
+				
 		}
 	}
 	
@@ -46,3 +46,6 @@ public class AdactInHotelApp {
 		driver.quit();
 	}
 }
+
+
+

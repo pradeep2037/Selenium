@@ -8,7 +8,7 @@ public class LeetCodeDNASequence187 {
 
 	public static void main(String[] args) {
 
-		String s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
+		String s = "AAAAAAAAAAAAA";
 
 		
 		ArrayList arr = new ArrayList<>();
@@ -29,9 +29,9 @@ public class LeetCodeDNASequence187 {
 			}
 		}
 		
-		for (Object object : arr) {
-			System.out.println(object);
-		}
+//		for (Object object : arr) {
+//			System.out.println(object);
+//		}
 		
 		System.out.println(repeated);
 		

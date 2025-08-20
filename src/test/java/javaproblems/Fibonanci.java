@@ -8,8 +8,7 @@ public class Fibonanci {
 		
 		System.out.println("enter number : ");
 		Scanner input = new Scanner(System.in);
-		int num = 10;
-		
+		int num = input.nextInt();
 		
 		int a = 0;
 		int b = 1;
