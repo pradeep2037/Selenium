@@ -11,7 +11,6 @@ public class MouseOver {
 	
 	ChromeDriver driver = new ChromeDriver();
 
-	
 	@BeforeMethod
 	public void initialSetUp() {
 		
@@ -29,10 +28,7 @@ public class MouseOver {
 		action.moveToElement(driver.findElement(By.xpath("//a[@data-href=\"/personal/#loans\"]"))).build().perform();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Vehicle Loans']")).click();
-		System.out.println(driver.getTitle());
-
-		
-		
+		System.out.println(driver.getTitle());	
 	}
 	
 	@AfterMethod

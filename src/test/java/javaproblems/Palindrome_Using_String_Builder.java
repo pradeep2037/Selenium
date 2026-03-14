@@ -2,7 +2,7 @@ package javaproblems;
 
 import java.util.Scanner;
 
-public class PalindromeWithoutLoop {
+public class Palindrome_Using_String_Builder {
 
 	public static void main(String[] args) {
 		

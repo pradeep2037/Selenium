@@ -25,7 +25,8 @@ public class DragAndDrop {
 		
 		Actions action = new Actions(driver);
 		driver.switchTo().frame(0);
-		action.dragAndDrop(driver.findElement(By.xpath("//div[@id=\"draggable\"]")), driver.findElement(By.xpath("//div[@id=\"droppable\"]"))).build().perform();
+		action.dragAndDrop(driver.findElement(By.xpath("//div[@id=\"draggable\"]")), driver.findElement(By.xpath("//div[@id=\"droppable\"]")))
+		.build().perform();
 		
 	}
 	
@@ -34,6 +35,6 @@ public class DragAndDrop {
 	@AfterMethod
 	public void closeUp() throws InterruptedException {
 		Thread.sleep(3000);
-		driver.quit();
+//		driver.quit();
 	}
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Alerts.GuruWebsite">
+      <class name="MiscellenousActions.MouseOver">
         <methods>
-          <include name="finalSetUp"/>
           <include name="initialSetUp"/>
-          <include name="amazonDropDown"/>
+          <include name="mouseOverAction"/>
+          <include name="closeUp"/>
         </methods>
-      </class> <!-- Alerts.GuruWebsite -->
+      </class> <!-- MiscellenousActions.MouseOver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

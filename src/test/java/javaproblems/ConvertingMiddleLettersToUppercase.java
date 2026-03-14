@@ -1,6 +1,6 @@
 package javaproblems;
 
-public class PrintingLowToUppCase {
+public class ConvertingMiddleLettersToUppercase {
 
 	public static void main(String[] args) {
 
