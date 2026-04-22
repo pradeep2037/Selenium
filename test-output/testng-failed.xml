@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MiscellenousActions.MouseOver">
+      <class name="framesandclosingpopup.Guru99">
         <methods>
-          <include name="initialSetUp"/>
-          <include name="mouseOverAction"/>
-          <include name="closeUp"/>
+          <include name="afterMethod"/>
+          <include name="automatingFrames"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- MiscellenousActions.MouseOver -->
+      </class> <!-- framesandclosingpopup.Guru99 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

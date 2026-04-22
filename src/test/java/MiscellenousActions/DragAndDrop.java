@@ -35,6 +35,6 @@ public class DragAndDrop {
 	@AfterMethod
 	public void closeUp() throws InterruptedException {
 		Thread.sleep(3000);
-//		driver.quit();
+		driver.quit();
 	}
 }

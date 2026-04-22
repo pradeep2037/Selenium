@@ -31,7 +31,6 @@ ChromeDriver driver = new ChromeDriver();
 		Actions action = new Actions(driver);
 		Thread.sleep(3000);
 		action.dragAndDropBy(driver.findElement(By.xpath("//span[@class=\"MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-1sfugkh\"]")), 70, 0).build().perform();
-
 	}
 	
 	

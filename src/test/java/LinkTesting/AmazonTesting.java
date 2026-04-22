@@ -39,7 +39,6 @@ public class AmazonTesting {
 			System.out.println("--------------------------------");
 			driver.navigate().back();
 		}
-
 	}
 
 	@AfterMethod

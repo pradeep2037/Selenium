@@ -57,7 +57,7 @@ public class AuthenticatingPopUpHandlingAndTypingTextInAlertPopUp {
 		rb.keyPress(KeyEvent.VK_V);
 		
 		rb.keyRelease(KeyEvent.VK_CONTROL);
-		rb.keyRelease(KeyEvent.VK_V);
+		rb.keyRelease(KeyEvent.VK_V); 
 		
 		Thread.sleep(2000);
 		
